@@ -1,0 +1,23 @@
+{
+    "name":"Basic Kubernetes Pod",
+    "id" : "com.github.com.vaibhavmalhotra002.plugin.templates.basic-pod-template",
+    "author" : "Vaibhav malhotra",
+    "version" : "1.0.0",
+    "description" : "creates a pod for a specified Image",
+    "repository" : "",
+    "type" : "vanila",
+    "forms" : [
+        {
+            "name":"Pod settings",
+            "description": "Specify the settings for your Pod",
+            "schema": "form-schema.json"
+        }
+    ],
+    "manifests": [
+        {
+            "filePath":"templates.yaml"
+        }
+    ],
+    "resultMessage": "Pod resorce created successfully!",
+    "helpUrl":"https://github.com/vaibhavmalhotra002/monokle-template-plugin.git"
+}

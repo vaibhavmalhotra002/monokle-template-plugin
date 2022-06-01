@@ -1,0 +1,17 @@
+{
+     "name": "Templateplugins",
+     "description": "Custom Templates plugin",
+     "version": "1.0.0",
+     "author": "vaibhav malhotra",
+     "repository": "https://github.com/vaibhavmalhotra002/monokle-template-plugin.git",
+     "monoklePlugin":{
+         "modules":[
+             {
+                 "type":"template",
+                 "path":"basic-pod-template"
+             }
+         ]
+     }
+
+
+}
