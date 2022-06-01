@@ -1,5 +1,5 @@
 {
-     "name": "Templateplugins",
+     "name": "Template plugins",
      "description": "Custom Templates plugin",
      "version": "1.0.0",
      "author": "vaibhav malhotra",
@@ -12,6 +12,4 @@
              }
          ]
      }
-
-
 }
