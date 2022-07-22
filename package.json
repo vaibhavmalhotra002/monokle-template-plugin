@@ -1,15 +1,16 @@
+
 {
-     "name": "Templates plugin",
-     "description": "Custom Templates plugin",
-     "version": "1.0.0",
-     "author": "vaibhav malhotra",
-     "repository": "https://github.com/vaibhavmalhotra002/monokle-template-plugin.git",
-     "monoklePlugin":{
-         "modules":[
-             {
-                 "type":"template",
-                 "path":"basic-pod-template"
-             }
-         ]
-     }
+	"name": "Templates plugin",
+	"description": "Custom templates plugin",
+	"version": "1.0.0",
+	"author": "Vaibhav Malhotra",
+	"repository": "https://github.com/vaibhavmalhotra002/monokle-template-plugin.git",
+	"monoklePlugin": {
+		"id": "com.github.vaibhavmalhotra002.plugin.templates",
+		"helpUrl": "https://github.com/vaibhavmalhotra002/monokle-template-plugin.git",
+		"modules": [{
+			"type": "template",
+			"path": "basic-pod-template"
+		}]
+	}
 }
